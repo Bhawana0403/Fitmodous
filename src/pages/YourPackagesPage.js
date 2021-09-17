@@ -6,9 +6,7 @@ function  YourPackagesPage(){
     return(
         <div> 
               <br></br>  <br></br>
-           <Box boxShadow={8}
-                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"10px",
-                     }} >
+  
                            <br></br>
                            <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
                         color:"black"}} >Your Packages
@@ -90,7 +88,7 @@ function  YourPackagesPage(){
                      </Box>
                     </Grid>
                     </Grid>   <br></br>   <br></br>
-                         </Box>
+                    
                          <br></br> <br></br>
                          <Button type="submit"
                       variant="outlined"

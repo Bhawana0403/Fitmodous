@@ -5,8 +5,8 @@ import Image from '../pages/images/fitmodous.png';
 function TermsAndConditionPage(){
     return(
         <div>  <br></br> <br></br> <br></br>   <br></br>
-            <Box boxShadow={8}
-                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
+             <Box boxShadow={8}
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
                      }} >     <br></br>  <br></br>
                                    <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px"}}>
 Terms and Conditions of Fitmodous

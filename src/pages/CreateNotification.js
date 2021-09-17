@@ -12,36 +12,38 @@ function CreateNotification(){
                          <br></br>
              
 <br></br>   <br></br>
-<Box boxShadow={8}
+{/* <Box boxShadow={8}
                          style={{width:"40%",height:"700px",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                     }} > */}
                          <br></br>
-<Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+<Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",marginRight:"300px",
                         color:"black"}} >Create Notification
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
+
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:'100%',
                         color:"black"}} >Notification Title
                          </Typography> 
 <br></br><br></br>
-                         <Box boxShadow={8}
-                         style={{width:"500px",height:"120px",fontWeight:"700",marginRight:"10px",
-                      borderRadius:"10px"}} >
-                               <br></br><br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+</Box><br></br>
+<Box boxShadow={8}
+                         style={{width:"40%",height:"10%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
+                               <br></br>
+               <Typography style={{fontWeight:"600",fontSize:"17px",width:'100%',
                         color:"black"}} >Notification Description
                          </Typography> 
                          </Box>
                          <br></br><br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                    borderRadius:"10px"}} >
-                               <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
+                             
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:'100%',
                         color:"black"}} >Image Selected
                          </Typography> 
                          </Box>
@@ -49,8 +51,8 @@ function CreateNotification(){
                          <Button
                       variant="contained"
                             style={{
-                                backgroundColor: "green", width: "30%",
-                                 borderRadius: "20px",color: "white",
+                                backgroundColor: "green", width: "20%",
+                                 borderRadius: "20px",color: "white",marginRight:"300px",
                                 fontWeight:'600'
                             }}   >
                   Upload
@@ -59,8 +61,8 @@ function CreateNotification(){
                  
                       <NotificationPopup/>
                         <br></br>   <br></br>   <br></br>
-</Box><br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br>
-                         </Box>
+<br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br>
+                         {/* </Box> */}
                          <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
             </div>
     )

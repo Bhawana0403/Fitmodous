@@ -11,10 +11,10 @@ function NewEventsPage(){
 
 return(
     <div><br></br><br></br>
-       <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} > <br></br> <br></br>
+         <Box boxShadow={8}
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
+                     }} >   
+                          <br></br> <br></br>
                           <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
                         color:"black"}} >My Events
                          </Typography>
@@ -38,9 +38,9 @@ return(
                     </Box>
                     <br></br>
                     <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
+                     }} >   
+                     <br></br> <br></br>
                         <Grid  style={{backgroundColor:"lightblue"}}container justify="flex-start" spacing={1}>
                     <Grid item sm={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
@@ -86,9 +86,9 @@ return(
                     </Box>
                     <br></br><br></br><br></br>
                     <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
+                     }} >   
+                     <br></br> <br></br>
                         <Grid  style={{backgroundColor:"lightblue"}}container justify="flex-start" spacing={1}>
                     <Grid item sm={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
@@ -133,9 +133,9 @@ return(
                     </Grid>
                     </Box><br></br><br></br><br></br>
                     <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
+                     }} >   
+                          <br></br> <br></br>
                         <Grid  style={{backgroundColor:"lightblue"}}container justify="flex-start" spacing={1}>
                     <Grid item sm={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",

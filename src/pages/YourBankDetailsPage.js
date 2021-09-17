@@ -9,31 +9,31 @@ function YourBankDetailsPage(){
         <div> <br></br><br></br>
               
                          <br></br>
-                         <Box boxShadow={8}
+                         {/* <Box boxShadow={8}
                          style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                     }} > */}
                            <br></br>
                            <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+                           marginRight:'30%',
                         color:"black"}} >Your Bank Details
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Bank Name
                          </Typography>       
 
-</Box>
-<br></br>
+</Box><br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",marginLeft:"10px",
-             width:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",marginLeft:"10px",width:"100%",
+ 
                         color:"black"}} >Bank Account Number
                          </Typography>       
 
@@ -41,12 +41,11 @@ function YourBankDetailsPage(){
 <br></br>
  
            
-
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"30%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"600px",width:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",width:"300px",width:"100%",
                         color:"black"}} >Bank account Holder name
                          </Typography>       
 
@@ -54,20 +53,20 @@ function YourBankDetailsPage(){
 <br></br>
 
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >IFSC Code
                          </Typography>       
 
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Your Mail id
                          </Typography>       
 
@@ -77,14 +76,14 @@ function YourBankDetailsPage(){
                     <Button
                       variant="contained"
                             style={{
-                                backgroundColor: "blue", width: "50%",
-                                 borderRadius: "20px",color: "white",
+                                backgroundColor: "blue", width: "20%",
+                                 borderRadius: "20px",color: "white",marginRight:"20%",
                                 fontWeight:'600'
                             }}   >
               Submit
                         </Button> 
 <br></br>          <br></br>     <br></br>  
-</Box>
+{/* </Box> */}
 
                          <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
             </div>

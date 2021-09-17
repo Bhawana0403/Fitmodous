@@ -60,8 +60,8 @@ export default function CreateEventPopup() {
                <Button onClick={handleOpen}
                       variant="contained"
                             style={{
-                                backgroundColor: "#3F51B5", width: "25%",
-                                 borderRadius: "10px",color: "white",marginLeft:"200px",
+                                backgroundColor: "#3F51B5", width: "20%",
+                                 borderRadius: "10px",color: "white",
                                 fontWeight:'600'
                             }}   >
              Next

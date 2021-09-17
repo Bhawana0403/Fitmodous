@@ -7,16 +7,15 @@ import YourBioSuccesfullySubmitted from '../component/YourBioSuccesfullySubmitte
 function NewSubscriberPage(){
     return(
         <div> 
-            <br></br><br></br>
-            <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
+            {/* <br></br><br></br>
+          
+         */}<br></br><br></br>
  <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",marginRight:"700px"}}>
     
 Today
 </Typography>
 <br></br>
-<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"500px"}}>
+<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"40%"}}>
     
     You have a new Subscriber
     </Typography><br></br>
@@ -24,20 +23,18 @@ Today
     Hello,Sandy this month you got another new subscriber.Whoo hoo.
     Enjoy your day and create a fruitfull content for your subscribers.
     </Typography><br></br>
-    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"500px"}}>
+    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"30%"}}>
 Today 8:00pm
     </Typography>
-    </Box>
+    {/*  */}
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
+  
  <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",marginRight:"700px"}}>
     
 Yesterday
 </Typography>
 <br></br>
-<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"500px"}}>
+<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"40%"}}>
     
     You have a new Subscriber
     </Typography><br></br>
@@ -45,20 +42,18 @@ Yesterday
     Hello,Sandy this month you got another new subscriber.Whoo hoo.
     Enjoy your day and create a fruitfull content for your subscribers.
     </Typography><br></br>
-    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"500px"}}>
+    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"30%"}}>
 Yesterday 8:00pm
     </Typography>
-    </Box>
+    
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
+  
  <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",marginRight:"700px"}}>
     
 Yesterday
 </Typography>
 <br></br>
-<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"500px"}}>
+<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"40%"}}>
     
     You have a new Subscriber
     </Typography><br></br>
@@ -66,20 +61,18 @@ Yesterday
     Hello,Sandy this month you got another new subscriber.Whoo hoo.
     Enjoy your day and create a fruitfull content for your subscribers.
     </Typography><br></br>
-    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"500px"}}>
+    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"30%"}}>
 Yesterday 10:00pm
     </Typography>
-    </Box>
+    
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
+  
  <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",marginRight:"700px"}}>
     
 Yesterday
 </Typography>
 <br></br>
-<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"500px"}}>
+<Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"40%"}}>
     
     You have a new Subscriber
     </Typography><br></br>
@@ -87,10 +80,10 @@ Yesterday
     Hello,Sandy this month you got another new subscriber.Whoo hoo.
     Enjoy your day and create a fruitfull content for your subscribers.
     </Typography><br></br>
-    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"500px"}}>
+    <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginLeft:"30%"}}>
 Yesterday 12:00pm
     </Typography>
-    </Box>
+    
     <br></br>
     
     

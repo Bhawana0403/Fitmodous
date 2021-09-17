@@ -7,33 +7,26 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 function GetInTouchPage(){
     return(
         <div>  <br></br> <br></br> <br></br> 
-            <Box boxShadow={8}
-                         style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
-                     }} >     <br></br>
+            {/* <Box boxShadow={8}
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",
+                         borderRadius:"30px",
+                     }} >    */}
+                       <br></br>
                          <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px"}}>
     
    Get In Touch
     </Typography>
     <br></br>
-    <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",color:"black",
-    marginRight:"700px"}}>
- Name
-    </Typography>
+ 
     
-    <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+    <TextField xs={6}lg={4}style={{width:"50%"}} id="standard-basic" label=" Name" />
 <br></br><br></br><br></br>
-<Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",color:"black",
-    marginRight:"700px"}}>
-Email
-    </Typography>
+
     
-    <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+    <TextField xs={6}lg={4}style={{width:"50%"}} id="standard-basic" label="Email" />
 <br></br><br></br><br></br>
-<Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px",color:"black",
-    marginRight:"650px"}}>
-Message
-    </Typography>
-       <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+
+    <TextField xs={6}lg={4}style={{width:"50%"}} id="standard-basic" label="Message" />
 <br></br><br></br><br></br>
     <Button type="submit"
                       variant="contained"
@@ -51,7 +44,7 @@ Contact
     </Typography>
     <br></br>
     <Box boxShadow={8}
-                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"200px",borderRadius:"30px",
+                         style={{width:"80%",height:"100%",fontWeight:"700",borderRadius:"30px",marginLeft:"10%",
                      }} >     <br></br>
     <Grid container justify="flex-start" spacing={1}>
         <br></br>   <br></br>
@@ -60,7 +53,7 @@ Contact
                         <EmailIcon />
                     </Grid>
                     <Grid item sm={2}>
-     <Typography  variant="subtitle2"style={{fontWeight:400,fontSize:"20px",color:"black",
+     <Typography  variant="subtitle2"style={{fontWeight:400,fontSize:"20px",color:"black",width:"100%"
     }}>
 info@fitmodous.com
     </Typography>
@@ -92,7 +85,7 @@ Address-Btm layout
                     </Grid>
                     </Box>
                     <br></br>     <br></br>     <br></br>
-                     </Box>
+                     {/* </Box> */}
         </div>
     );
 }

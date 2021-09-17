@@ -7,15 +7,15 @@ function UploadVideo(){
     return(
         <div> <br></br>
            <br></br> <br></br> <br></br>
-        <Box boxShadow={8}
+        {/* <Box boxShadow={8}
                          style={{width:"900px",height:"100%",fontWeight:"700",
-                         marginLeft:"30%",borderRadius:"10px"}} ><br></br><br></br>
-              <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+                         marginLeft:"30%",borderRadius:"10px"}} ><br></br><br></br> */}
+              <Typography style={{fontWeight:"800",fontSize:"20px",
                         color:"black"}} >Upload Video
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"300px",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+                         style={{width:"50%",height:"50%",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
 
            
          <br></br> <br></br>
@@ -33,6 +33,7 @@ function UploadVideo(){
                             }}   >
                      Browse from the files
                         </Button>
+                        <br></br> <br></br>
     
     </Box>
     <br></br>
@@ -41,43 +42,60 @@ function UploadVideo(){
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+                         style={{width:"50%",height:"50%",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+
                                <br></br>
-                             Video Titile
+                               <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
+                        color:"black"}} >  Video Titile
+                         </Typography>       
+
+</Box>
+<br></br>
+<Box boxShadow={8} style={{width:"50%",height:"200px",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+
+                               <br></br>
+                               <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
+                        color:"black"}} >     Video Description
+                         </Typography>     
+                         
 
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"500px",height:"200px",fontWeight:"700",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
-                               <br></br>
-                             Video Description
+           style={{width:"50%",height:"50%",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+           <br></br>
+           <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
+                        color:"black"}} >     Choose Video Category
+                         </Typography>      
 
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
-                               <br></br>
-                        Choose Video Category
+           style={{width:"50%",height:"200px",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+           <br></br>
+                   
+           <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
+                        color:"black"}} >       Video Tags
+                         </Typography>    
 
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"500px",height:"200px",fontWeight:"700",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
-                               <br></br>
-                      Video Tags
+           style={{width:"50%",height:"100%",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+           <br></br>
+           <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
+                        color:"black"}} >       Show Only to Premium Members
+                         </Typography>    
+
+                 
+                    
+
 
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
-                               <br></br>
-                      Show Only to Premium Members
-
-</Box>
-<br></br>
-<Box boxShadow={8}
-                         style={{width:"500px",height:"300px",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
-
+           style={{width:"50%",height:"350px",marginRight:"10px",marginLeft:"20%",borderRadius:"10px"}} >
+           <br></br>
            
          <br></br> <br></br>
  <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
@@ -97,7 +115,7 @@ function UploadVideo(){
     
     </Box>
     <br></br>
-    <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"18px",
+    <Typography style={{fontWeight:"600",fontSize:"18px",
                         color:"black"}} >Thumb Resolution is 1920*1820
                    
                          </Typography>
@@ -105,7 +123,8 @@ function UploadVideo(){
 
                         <UploadVideoPopup/>
                         <br></br> <br></br> <br></br>
-                        </Box>   <br></br> <br></br> <br></br>   <br></br> <br></br> <br></br>
+                        {/* </Box>   */}
+                         <br></br> <br></br> <br></br>   <br></br> <br></br> <br></br>
             </div>
     )
 }

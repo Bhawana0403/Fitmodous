@@ -14,10 +14,11 @@ function TotalViewsPage(){
 
 return(
     <div><br></br> <br></br><br></br> <br></br>
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
                          style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
                          marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                     }} >  */}
+                     <br></br> <br></br>
         <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
                         color:"black"}} >
 Your Views
@@ -53,7 +54,7 @@ Total Views:200
           </TableContainer>
         
           <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
+                    <Grid item sm={6}xs={6}>
                     <Typography style={{fontWeight:"400",fontSize:"20px",padding:"10px 0px",width:"100%",
                         color:"black",paddingRight:"60%"}} >
                         
@@ -77,9 +78,9 @@ Arms Workout for women for Standard
 <br></br><br></br>
          </Typography>
                         </Grid>
-                        <Grid item sm={6}>
-                        <Typography style={{fontWeight:"400",fontSize:"20px",paddingLeft:"10px 0px",
-                        color:"black",paddingRight:"60%"}} >
+                        <Grid item sm={6} xs={6}>
+                        <Typography style={{fontWeight:"400",fontSize:"20px",
+                        color:"black",}} >
 700<br></br><br></br>
 800<br></br><br></br>
 
@@ -91,7 +92,7 @@ Arms Workout for women for Standard
          </Typography>
                         </Grid>
          </Grid>
-         </Box>
+         {/* </Box> */}
     </div>
 );
 }

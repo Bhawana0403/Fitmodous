@@ -14,9 +14,9 @@ function YourVideosPage(){
     <Typography variant="h6" style={{fontWeight:600,fontSize:"20px",marginRight:"500px"}}>
  Total Videos:93
     </Typography><br></br>
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
         style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
+        marginLeft:"30%",borderRadius:"10px"}} ><br></br> */}
 
 <br></br>
 
@@ -38,11 +38,8 @@ Arm Workouts for Women for standard subscribers only
 
  
 
-    </Box>
+    {/*  */}
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
 
 <br></br>
 
@@ -64,11 +61,8 @@ Arm Workouts for Women for standard subscribers only
 
  
 
-    </Box>
+    
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
 
 <br></br>
 
@@ -90,11 +84,8 @@ Arm Workouts for Women for standard subscribers only
 
  
 
-    </Box>
+    
     <br></br>
-    <Box boxShadow={8}
-        style={{width:"40%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"30%",borderRadius:"10px"}} ><br></br>
 
 <br></br>
 
@@ -116,7 +107,7 @@ Arm Workouts for Women for standard subscribers only
 
  
 
-    </Box>
+    
     <br></br> <br></br>
    
             </div>

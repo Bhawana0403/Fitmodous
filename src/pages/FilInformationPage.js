@@ -35,27 +35,31 @@ function FillInformationPage(){
   
 return(
     <div><br></br><br></br><br></br>
-        <Box boxShadow={8}
+        {/* <Box boxShadow={8}
       style={{width:"30%",height:"40%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
-                     }} >     <br></br>
+                     }} >     <br></br> */}
         
         <Typography style={{paddingLeft:"10px",fontWeight:"600",fontSize:"20px",color:"#ff6000"}} >
           Kindly Fill the information below
          </Typography> 
       <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={2}>
-                    <TextField  style={{marginLeft:"100px",width:"300px"}}id="standard-basic" label="Name" />
+      <Grid item sm={4}></Grid>
+                    <Grid item sm={4} lg={4} xs={12}>
+           <TextField  style={{width:"100%"}}id="standard-basic" label="Name" />
    <br></br>  <br></br>
-   <TextField  style={{marginLeft:"100px",width:"300px"}}id="standard-basic" label="Date" />
-   
+   <TextField  style={{width:"100%"}}id="standard-basic" label="Date" />
    <br></br>  <br></br>
-   <TextField  style={{marginLeft:"100px",width:"300px"}}id="standard-basic" label="Time" />
+   <TextField  style={{width:"100%"}}id="standard-basic" label="Time" />
    <br></br>  <br></br>
-   <TextField  style={{marginLeft:"100px",width:"300px"}}id="standard-basic" label="Trainer Name" />
-   <br></br> <br></br> <br></br>
-   <FormControl component="fieldset" className={classes.formControl}>
+   <TextField  style={{width:"100%"}}id="standard-basic" label=" Trainer Name" />
+     <br></br> <br></br> <br></br>
+                        <br></br> <br></br> <br></br>
+                 </Grid>
+                 <Grid item sm={4}></Grid>
+                    </Grid>
+                    <FormControl component="fieldset" className={classes.formControl}>
         <FormGroup>
-          <FormControlLabel style={{width:"500px",marginLeft:"40px"}}
+          <FormControlLabel style={{width:"100%"}}
             control={<Checkbox  checked={gilad} onChange={handleChange} name="gilad" />}
             label="All the details above was correct"
           />
@@ -63,20 +67,18 @@ return(
         </FormGroup>
   
       </FormControl>
-   <Button
+      <br></br>
+   <Button  xs={12}
                       variant="contained"
-                            style={{  backgroundColor: "#42a5f5", width: "150px",height:"50px"
-                            ,marginLeft:"150px",
+                            style={{  backgroundColor: "#42a5f5", width: "20%",height:"10%",
+                       
                              borderRadius: "20px",color: "white",
                                 fontWeight:'600'
                             }}   >  Proceed
                         </Button>
-                        <br></br> <br></br> <br></br>
-                 </Grid>
-               
-                    </Grid>
+ 
              
-</Box>
+{/* </Box> */}
 
 
     </div>

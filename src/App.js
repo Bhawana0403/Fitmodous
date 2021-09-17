@@ -93,7 +93,7 @@ function App() {
        <Route path="/FitGymPage" component={FitGymPage} exact /> 
        <Route path="/CompletePaymentPage" component={CompletePaymentPage} exact /> 
        <Route path="/PurchasePlanPopup" component={PurchasePlanPopup} exact /> 
-        <Redirect to="/"/>
+        <Redirect to="/DashboardPage"/>
         </Switch>
         </Router>
     {/* <Head/> */}

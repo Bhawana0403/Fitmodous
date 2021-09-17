@@ -16,34 +16,35 @@ function PayAmountPage(){
   
 return(
     <div><br></br><br></br>    <br></br>
-       <Box boxShadow={8}
+       {/* <Box boxShadow={8}
                          style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"3px",
                          marginLeft:"500px"
-                     }} > <br></br> <br></br>
-                          <Box boxShadow={8}
-                         style={{width:"100%",height:"60px",fontWeight:"700",borderRadius:"10px",
+                     }} > <br></br> <br></br> */}
+                          <Box boxShadow={8} sm={6}lg={4}
+                         style={{width:"50%",height:"60px",fontWeight:"700",borderRadius:"10px",marginLeft:"20%",
                          backgroundColor:"blue",color:'white'
                       
                      }} ><br></br>
                          Amount Payable
                      </Box>
                       <br></br>    <br></br>
-                      <Box boxShadow={8}
-                         style={{width:"100%",height:"60px",fontWeight:"700",borderRadius:"10px",
+                      <Box boxShadow={8} sm={6}lg={4}
+                         style={{width:"50%",height:"60px",fontWeight:"700",borderRadius:"10px",marginLeft:"20%",
                          backgroundColor:"blue",color:'white'
                       
                      }} ><br></br>
                        UPI
                      </Box>
                      <br></br><Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
+                     <Grid item sm={6} xs={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
-                        color:"black"}} >Pay using UPI id
+                        color:"black"}} >
+                          Pay using UPI id
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
-                        <br></br>
+                    <Grid item sm={4} xs={6}>
+                    
                     <FormControl component="fieldset">
  
  <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -54,8 +55,8 @@ return(
                     </Grid>
                   
                     </Grid>
-                     <Box boxShadow={8}
-                         style={{width:"100%",height:"60px",fontWeight:"700",borderRadius:"10px",
+                    <Box boxShadow={8} sm={6}lg={5}
+                         style={{width:"50%",height:"60px",fontWeight:"700",borderRadius:"10px",marginLeft:"20%",
                          backgroundColor:"blue",color:'white'
                       
                      }} ><br></br>
@@ -63,14 +64,14 @@ return(
                      </Box>
                       <br></br>
                       <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
+                      <Grid item sm={6} xs={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Paytm Wallet
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
-                        <br></br>
+                    <Grid item sm={4} xs={6}>
+                      
                     <FormControl component="fieldset">
  
  <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -82,14 +83,14 @@ return(
                   
                     </Grid>
                     <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
+                    <Grid item sm={6} xs={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Phone Pe
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
-                        <br></br>
+                    <Grid item sm={4} xs={6}>
+                      
                     <FormControl component="fieldset">
  
  <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -100,13 +101,13 @@ return(
                     </Grid>
                   
                     </Grid>  <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
+                    <Grid item sm={6} xs={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Google Pay
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
+                    <Grid item sm={4} xs={6}>
                         <br></br>
                     <FormControl component="fieldset">
  
@@ -118,22 +119,22 @@ return(
                     </Grid>
                   
                     </Grid>
-                      <Box boxShadow={8}
-                         style={{width:"100%",height:"60px",fontWeight:"700",borderRadius:"10px",
+                    <Box boxShadow={8} sm={6}lg={4}
+                         style={{width:"50%",height:"60px",fontWeight:"700",borderRadius:"10px",marginLeft:"20%",
                          backgroundColor:"blue",color:'white'
                       
                      }} ><br></br>
                    Other Payment Options
                      </Box>   <br></br><br></br>
                      <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
+                     <Grid item sm={6} xs={6}>
                     <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Debit/Atm Card
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
-                        <br></br>
+                    <Grid item sm={4}xs={6}>
+                   
                     <FormControl component="fieldset">
  
  <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -145,14 +146,14 @@ return(
                   
                     </Grid>
                     <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
-                    <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
+                    <Grid item sm={6} xs={6}>
+                    <Typography style={{fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Net Banking
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
-                        <br></br>
+                    <Grid item sm={4}xs={6}>
+                   
                     <FormControl component="fieldset">
  
  <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
@@ -163,13 +164,13 @@ return(
                     </Grid>
                   
                     </Grid>  <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}><br></br>
-                    <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
+                    <Grid item sm={6} xs={6}><br></br>
+                    <Typography style={{fontWeight:"600",fontSize:"16px",
                         color:"black"}} >Credit Card
                          </Typography>
                     </Grid>
                 
-                    <Grid item sm={6}>
+                    <Grid item sm={4}xs={6}>
                         <br></br>
                     <FormControl component="fieldset">
  
@@ -181,7 +182,7 @@ return(
                     </Grid>
                   
                     </Grid>
-                         </Box>
+                         {/* </Box> */}
                          <br></br>    <br></br>    <br></br>    <br></br>
                          </div>
                          );

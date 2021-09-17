@@ -7,9 +7,9 @@ export const AvailableEventsPage=()=>{
 
     return<>
     <br></br> <br></br>
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
       style={{width:"40%",height:"40%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
-                     }} >  
+                     }} >   */}
               <Typography style={{fontWeight:"600",fontSize:"20px",color:"black",paddingTop:"50px"}} >
 Available Events
          </Typography> 
@@ -19,20 +19,21 @@ Available Events
                       <br></br> <br></br>
 
          <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
-                    <Typography style={{paddingLeft:"10px",fontWeight:"600",fontSize:"20px",color:"black"}} >
+                    <Grid item sm={6} xs={4}>
+                    <Typography style={{fontWeight:"600",fontSize:"20px",color:"black"}} >
          Abs Workout
          </Typography> 
                     </Grid>
-                    <Grid item sm={2}>
+                    <Grid item sm={2} xs={4}>
                         <ShareIcon style={{color:"blue"}}/>
                     </Grid>
-                    <Grid item sm={2}>
+                    <Grid item sm={2} xs={4}>
                         <FavoriteIcon style={{color:"red"}}/>
                     </Grid>
                     </Grid>
                     <br></br>
-                    <Typography style={{fontWeight:"400",fontSize:"15px",color:"black",marginRight:"300px"}} >
+                    <Typography sm={6} xs={4}style={{fontWeight:"400",fontSize:"15px",
+                    color:"black"}} >
   By Prem
 <br></br>On Sep 10th 2021 1:30pm<br></br>
 23 seats available
@@ -40,21 +41,21 @@ Available Events
          <br></br>   <br></br>
          <Button
                       variant="contained"
-                            style={{  backgroundColor: "#42a5f5", width: "200px",height:"50px"
-                            ,marginLeft:"30px",
+                            style={{  backgroundColor: "#42a5f5", width: "20%",height:"30%",
+                          
                              borderRadius: "20px",color: "white",
                                 fontWeight:'600'
                             }}   >  Book Event
                         </Button>   <br></br>   <br></br>
                         <Button
                       variant="outlined"
-                            style={{  backgroundColor: "white", width: "200px",height:"50px"
-                            ,marginLeft:"30px",
+                            style={{  backgroundColor: "white", width: "20%",height:"30%",
+                            
                              borderRadius: "20px",color: "#42a5f5",
                                 fontWeight:'600'
                             }}   > Join Live
                         </Button>  <br></br> <br></br> <br></br>
-                     </Box>
+                     {/* </Box> */}
     </>
     
 }

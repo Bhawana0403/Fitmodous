@@ -61,8 +61,8 @@ export default function CreatePackagePopup() {
                <Button type="submit" onClick={handleOpen}
                       variant="contained"
                             style={{
-                                backgroundColor: "blue", width: "40%",
-                                 borderRadius: "10px",color: "white",
+                                backgroundColor: "blue", width: "30%",
+                                 borderRadius: "10px",color: "white",marginRight:"300px",
                                 fontWeight:'600'
                             }}   >
              Create Package

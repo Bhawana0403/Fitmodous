@@ -61,7 +61,7 @@ export default function UploadVideoPopup() {
                       variant="contained"
                             style={{
                                 backgroundColor: "#3F51B5", width: "25%",
-                                 borderRadius: "10px",color: "white",marginLeft:"200px",
+                                 borderRadius: "10px",color: "white",
                                 fontWeight:'600'
                             }}   >
                   Upload Video

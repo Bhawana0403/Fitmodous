@@ -7,17 +7,15 @@ function  CreateNewPackagePage(){
     return(
         <div> 
             <br></br>     <br></br>
-            <Box boxShadow={8}
-                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"10px",
-                     }} >     <br></br>
-           <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+            <br></br>
+           <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",marginRight:"300px",
                         color:"black"}} >Create Packages
                          </Typography>
 
                          <br></br>
                          <Box boxShadow={8}
-        style={{width:"90%",height:"100px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"2%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >Package Name
@@ -27,8 +25,8 @@ function  CreateNewPackagePage(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"90%",height:"100px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"2%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >Package Price
@@ -38,8 +36,8 @@ function  CreateNewPackagePage(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"90%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"2%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"130px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >Package Description
@@ -49,8 +47,8 @@ function  CreateNewPackagePage(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-        style={{width:"90%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"2%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"130px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >Package Pros
@@ -59,10 +57,9 @@ function  CreateNewPackagePage(){
 
 </Box>
 <br></br>
-
 <Box boxShadow={8}
-        style={{width:"90%",height:"300px",fontWeight:"700",marginRight:"100px",fontSize:"20px",
-        marginLeft:"2%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"130px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                                <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >Package Cons
@@ -74,7 +71,7 @@ function  CreateNewPackagePage(){
 
                         <CreatePackagePopup/>
                         <br></br><br></br><br></br><br></br>
-                         </Box>
+                    
                          <br></br><br></br>
               </div>
     );

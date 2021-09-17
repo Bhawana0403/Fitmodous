@@ -1,13 +1,17 @@
 import React,{useState,useEffect} from 'react';
 import { Grid,Chip,Paper,Box,Card,Input,Typography,Button,Avatar} from '@material-ui/core';
-import Image2 from '../pages/images/pic.jpg'
-import UploadVideoPopup from '../component/UploadVideoPopup';
-import YourBioSuccesfullySubmitted from '../component/YourBioSuccesfullySubmitted';
 import ChatIcon from '@material-ui/icons/Chat';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import Image from '../pages/images/chat.png'
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
+import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
+import DescriptionIcon from '@material-ui/icons/Description';
+import EventIcon from '@material-ui/icons/Event';
 import {
     Route,
     NavLink,
@@ -21,9 +25,9 @@ function DashboardPage(){
         <div> <br></br><br></br>
               
                          <br></br>
-                         <Box boxShadow={8}
+                         {/* <Box boxShadow={8} xs={6} sm={6}md={6} lg={12}
                          style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                     }} > */}
                            <br></br>
                            <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
                         color:"black"}} >Your dashboard
@@ -33,8 +37,8 @@ function DashboardPage(){
                          </NavLink>
                          <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                    {/* <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
+                 alt="image"/> */}
                     </Grid>
                       
                         <Grid item sm={4}>
@@ -52,7 +56,9 @@ function DashboardPage(){
                         </Grid>
                         <Grid item sm={4}>
                         <NavLink exact activeClassName="active" to="/ChatPage">
-                        < ChatIcon style={{color:"black"}}/>
+                        <img   src={Image}class="responsive" width="10%" height="30%"/>
+    
+                        {/* < ChatIcon style={{color:"black"}}/> */}
                         </NavLink>
                             </Grid>
                         </Grid>
@@ -61,7 +67,7 @@ function DashboardPage(){
                         <Button type="submit"
                       variant="contained"
                             style={{
-                                backgroundColor: "blue", width: "60%",
+                                backgroundColor: "blue", width: "30%",
                                  borderRadius: "10px",color: "white",
                                 fontWeight:'600'
                             }}   >
@@ -72,26 +78,30 @@ function DashboardPage(){
                         <Button type="submit"
                       variant="outlined"
                             style={{
-                                backgroundColor: "white", width: "60%",
+                                backgroundColor: "white", width: "30%",
                                  borderRadius: "10px",color: "blue",
                                 fontWeight:'600'
                             }}   >
              Create Event
-                        </Button>
+                        </Button>  <br></br>  <br></br>
                         </NavLink>
                         <br></br>
                         <br></br>
                         <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
+                    <Grid item sm={3}>
+                    </Grid>
+
+                    <Grid item sm={3}>
+                 
                     <NavLink exact activeClassName="active" to="/TotalEarningsPage">
                     <Box boxShadow={8}
-                         style={{width:"250px",height:"100px",fontWeight:"700",marginRight:"10px",
+                         style={{width:"100%",height:"100%",fontWeight:"700",marginRight:"10px",
                          marginLeft:"10%",borderRadius:"10px"}} >
                              
            
 
                          <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
+                    <Grid item sm={3}>
                         <MonetizationOnIcon style={{width:"70%",height:"70%"}}/>
                     </Grid>
                     <Grid item sm={6}>
@@ -108,43 +118,50 @@ Total Earnings
                     </Grid>
                     </Grid>
 </Box>
-</NavLink>         </Grid>
-                    <Grid item sm={6}>
+</NavLink>        
+                    </Grid>
+                    <Grid item sm={3}>
                     <NavLink exact activeClassName="active" to="/SubscribersPage">
    
-                    <Box boxShadow={8}
-                         style={{width:"250px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                           
-                               <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
-                        <SubscriptionsIcon style={{width:"70%",height:"70%"}}/>
-                    </Grid>
-                    <Grid item sm={6}>
-                    <Typography style={{fontWeight:"600",fontSize:"20px",color:"black"}} >
-      10,000
-             <br></br>
-             
-         </Typography> 
-      <br></br>
-          <Typography style={{fontWeight:"600",fontSize:"15px",color:"black"}} >
-Subscribers
-         </Typography>
-                    </Grid>
-                    </Grid> 
+   <Box boxShadow={8}
+        style={{width:"100%",height:"100%",fontWeight:"700",marginRight:"10px",
+        marginLeft:"10%",borderRadius:"10px"}} >
+          
+              <Grid container justify="flex-start" spacing={1}>
+   <Grid item sm={6}>
+       <SubscriptionsIcon style={{width:"70%",height:"70%"}}/>
+   </Grid>
+   <Grid item sm={6}>
+   <Typography style={{fontWeight:"600",fontSize:"20px",color:"black"}} >
+10,000
+<br></br>
+
+</Typography> 
+<br></br>
+<Typography style={{fontWeight:"600",fontSize:"15px",color:"black"}} >
+Subscriber
+</Typography>
+   </Grid>
+   </Grid> 
 <br></br>
 
 </Box></NavLink>
-
-                    </Grid>
+                       </Grid>   
+                        <Grid item sm={3}>
+                            
+                       </Grid>
                     </Grid>
                     <br></br>
+                    
                     <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
+                    <Grid item sm={3}>
+                            
+                            </Grid>
+                    <Grid item sm={3}>
                     <NavLink exact activeClassName="active" to="/TotalViewsPage">
   
                     <Box boxShadow={8}
-                         style={{width:"250px",height:"100px",fontWeight:"700",marginRight:"10px",
+                         style={{width:"100%",height:"100%",fontWeight:"700",marginRight:"10px",
                          marginLeft:"10%",borderRadius:"10px"}} >
                              
            
@@ -167,11 +184,11 @@ Views
                     </Grid>
 </Box></NavLink>
                     </Grid>
-                    <Grid item sm={6}>
+                    <Grid item sm={3}>
                     <NavLink exact activeClassName="active" to="/YourVideosPage">
    
                     <Box boxShadow={8}
-                         style={{width:"250px",height:"100px",fontWeight:"700",marginRight:"10px",
+                         style={{width:"100%",height:"100%",fontWeight:"700",marginRight:"10px",
                          marginLeft:"10%",borderRadius:"10px"}} >
                            
                                <Grid container justify="flex-start" spacing={1}>
@@ -190,184 +207,238 @@ Views
 Videos
          </Typography>
                     </Grid>
+                    <Grid item sm={3}>
+                            
+                            </Grid>
                     </Grid> 
 <br></br>
 
 </Box></NavLink>
 
+
                     </Grid>
                     </Grid>
                     <br></br><br></br>
                     <NavLink exact activeClassName="active" to="/YourBio">
-             
-                         <Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                    <Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                         style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                        borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
+                                   
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                        <AccountCircleIcon style={{width:"100%",overflow:"auto"}}/>
+                    {/* <Avatar style={{width:"0%",height:"50%",marginLeft:"40px"}} className="logo" 
+                 alt="image"/> */}
                     </Grid>
                     <Grid item sm={4}>
-                       <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
+                       <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+                       width:"100%",
                         color:"black"}} >Your Bio
                          </Typography>    
                    
                     </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
+                        <ArrowForwardIcon />
                         </Grid>
                     </Grid>       
                 
 
-</Box>     </NavLink>
-<br></br>      <NavLink exact activeClassName="active" to="/CreateNotification">
-             
- <Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+</Box>    
+                                   </Grid>
+                                   <Grid item sm={2}></Grid>
+                                   </Grid>
+                         </NavLink>
+                         <br></br> <br></br>
+    <NavLink exact activeClassName="active" to="/CreateNotification">
+<Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                     style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                     borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                    <NotificationsIcon  style={{width:"100%",overflow:"auto"}}/>
                     </Grid>
                     <Grid item sm={4}>
-                      <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
-                        color:"black"}} >Notify Followers
+                      <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+                      width:"100%",
+                        color:"black"}} > Followers
                          </Typography>    
                     
                         
                     </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
+                    <ArrowForwardIcon />
                         </Grid>
                     </Grid>       
                 
 
-</Box>     </NavLink>
+</Box>
+                                   </Grid>
+                                   <Grid item sm={2}></Grid>
+                                   </Grid>
+      </NavLink>
 <br></br>         <NavLink exact activeClassName="active" to="/NewSubscriberPage">
-<Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+<Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                     style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                     borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                    {/* <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
+                 alt="image"/> */}
+                    <NotificationsIcon  style={{width:"100%",overflow:"auto"}}/>
                     </Grid>
                     <Grid item sm={4}>
            
-                    <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
-                        color:"black"}} >Your Notifications
+                    <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
+                        color:"black"}} >Notifications
                          </Typography>    
                    
                     </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
+                    <ArrowForwardIcon />
                         </Grid>
                     </Grid>       
                 
 
-</Box>     </NavLink>
+</Box>
+                                   </Grid>
+                                   <Grid item sm={2}></Grid>
+                                   </Grid>
+     </NavLink>
 <br></br>
 <NavLink exact activeClassName="active" to="/YourBankDetailsPage">
-              
-<Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+   <Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                     style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                     borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+               <AccountBalanceIcon/>
                     </Grid>
                     <Grid item sm={4}>
-                     <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
+                     <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Bank Details
                          </Typography>    
                        </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
-                        </Grid>
+                         <ArrowForwardIcon />      </Grid>
                     </Grid>       
                 
 
-</Box>       </NavLink>
+</Box>       </Grid>    
+                                 
+                                   <Grid item sm={2}></Grid>  
+                                   </Grid>        
+</NavLink>
               
 <br></br>
 <NavLink exact activeClassName="active" to="/YourPackagesPage">
-             
-<Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+<Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                     style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                     borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                 < DescriptionIcon/>
                     </Grid>
                     <Grid item sm={4}>
-                      <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
+                      <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >My Packages
                          </Typography>    
                    
                     </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
-                        </Grid>
+                         <ArrowForwardIcon/>      </Grid>
                     </Grid>       
                 
 
-</Box>     </NavLink>
+</Box>
+                                   </Grid>
+                                
+                                   <Grid item sm={2}></Grid>
+                                   </Grid>
+     </NavLink>
 <br></br>      <NavLink exact activeClassName="active" to="/NewEventsPage">
-             
-<Box boxShadow={8}
-                         style={{width:"500px",height:"100px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+             <Grid container justify="flex-start" spacing={1}>
+                                   
+                                   <Grid item sm={4}></Grid>
+                                   <Grid item sm={5}>
+                                   <Box boxShadow={8}
+                     style={{width:"100%",height:"100%",fontWeight:"700",
+                       
+                     borderRadius:"10px"}} >
                                <br></br>
                           
                                <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={4}>
-                    <Avatar style={{width:"50px",height:"50px",marginLeft:"40px"}} className="logo" 
-                 alt="image"/>
+                    <EventIcon/>
                     </Grid>
                     <Grid item sm={4}>
-                     <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100px",
+                     <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >My Events
                          </Typography>    
                        </Grid>
                     <Grid item sm={4}>
-                        <ArrowForwardIcon style={{width:"80%",height:"70px"}}/>
-                        </Grid>
+                         <ArrowForwardIcon />      </Grid>
                     </Grid>       
                 
 
-</Box>     </NavLink>
+</Box>   
+
+                                   </Grid>
+                                   <Grid item sm={2}></Grid>
+                                   </Grid>
+  </NavLink>
                 
 <br></br>    
 
       <br></br>   
-</Box>
+{/* </Box> */}
 <br></br>
 <Button type="submit"
                       variant="contained"
                             style={{
-                                backgroundColor: "blue", width: "20%",
+                                backgroundColor: "blue", width: "16%",marginLeft:"10%",
                                  borderRadius: "10px",color: "white",
-                                fontWeight:'600',marginRight:"400px"
+                                fontWeight:'600',
                             }}   >
               View My Profile
                         </Button>
                         <br></br> <br></br> <br></br>
                         <Box boxShadow={8}
-                         style={{width:"600px",height:"100%",fontWeight:"700",marginLeft:"700px",
+                         style={{width:"50%",height:"50%",fontWeight:"700",marginLeft:'30%',
                          borderRadius:"10px"}} >
                              <br></br>
              <LanguagePopup/>

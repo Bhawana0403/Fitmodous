@@ -6,10 +6,11 @@ function SubscriberPage(){
 
 return(
     <div><br></br><br></br>
-       <Box boxShadow={8}
+       {/* <Box boxShadow={8}
                          style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
                          marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                     }} > */}
+                            <br></br> <br></br>
                            <Grid container justify="flex-start" spacing={1}>
                          <Grid item sm={10}>
                          <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"25px",
@@ -74,7 +75,7 @@ Country
                          <hr></hr>
                          <br></br>
                          
-         </Box>
+         {/* </Box> */}
          <br></br> <br></br>
          <Typography style={{fontWeight:"800",fontSize:"25px",
                         color:"black"}} >

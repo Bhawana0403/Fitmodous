@@ -12,67 +12,74 @@ function CreateEventPage(){
         <div> <br></br><br></br>
               
                          <br></br>
-                         <Box boxShadow={8}
+                         {/* <Box boxShadow={8}
                          style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                     }} > */}
                            <br></br>
-                           <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+                           <Typography style={{fontWeight:"800",fontSize:"20px",
                         color:"black"}} >Create Event
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
-                               
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+                         style={{width:"40%",height:"50px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
+                                       <Typography style={{fontWeight:"600",fontSize:"17px",
+                                       marginRight:"300px",width:"100%",
                         color:"black"}} >Event Name
-                         </Typography>       
+                         </Typography>     
 
-</Box>
+                         </Box>
+
+           
+          
 <br></br>
-<Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+   <Box boxShadow={8}
+                        style={{width:"40%",height:"50px",marginLeft:"20%",
+                         borderRadius:"10px"}} ><br></br>
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Event Date
                          </Typography>       
 
 </Box>
 <br></br>
-  <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
-                    <Box boxShadow={8}
-                         style={{width:"250px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
+<Grid container justify="flex-start" spacing={1}>
+<Grid item sm={3}>
+                 
+                 </Grid>
+                    <Grid item sm={2}>
+                   <Box boxShadow={8}
+                         style={{width:"100%",height:"50px",marginRight:"10px",
+                         borderRadius:"10px"}} >
+                               
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
-                        color:"black"}} >Event Time From
+                        color:"black"}} >Seat Availability
                          </Typography>       
 
 </Box>
+
 <br></br>
                     </Grid>
-                    <Grid item sm={6}>
-                    <Box boxShadow={8}
-                         style={{width:"250px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
+                    <Grid item sm={2}>  <Box boxShadow={8}
+                         style={{width:"100%",height:"50px",
+                         borderRadius:"10px"}} >
+                            
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
-                        color:"black"}} >Event Time to
+                        color:"black"}} >Out of
                          </Typography>       
 
 </Box>
-<br></br>
-                        </Grid>
+<br></br></Grid>
+
+<Grid item sm={3}>
+                 
+                 </Grid>
+                   
                     </Grid>
 
-<Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+   <Box boxShadow={8}
+                        style={{width:"40%",height:"50px",marginLeft:"20%",
+                         borderRadius:"10px"}} ><br></br>
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Trainer Name
                          </Typography>       
 
@@ -81,36 +88,43 @@ function CreateEventPage(){
 
 
 <Grid container justify="flex-start" spacing={1}>
-                    <Grid item sm={6}>
-                    <Box boxShadow={8}
-                         style={{width:"250px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
+<Grid item sm={3}>
+                 
+                 </Grid>
+                    <Grid item sm={2}>
+                   <Box boxShadow={8}
+                         style={{width:"100%",height:"50px",marginRight:"10px",
+                         borderRadius:"10px"}} >
+                         
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Seat Availability
                          </Typography>       
 
 </Box>
+
 <br></br>
                     </Grid>
-                    <Grid item sm={6}>
-                    <Box boxShadow={8}
-                         style={{width:"250px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
-                               <br></br>
+                    <Grid item sm={2}>  <Box boxShadow={8}
+                         style={{width:"100%",height:"50px",
+                         borderRadius:"10px"}} >
+                        
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Out of
                          </Typography>       
 
 </Box>
-<br></br>
-                        </Grid>
+<br></br></Grid>
+
+<Grid item sm={3}>
+                 
+                 </Grid>
+                   
                     </Grid>
-                    <br></br>
+                    <br></br>     <br></br>  
  <CreateEventPopup/>
                         
 <br></br>          <br></br>     <br></br>  
-</Box>
+{/* </Box> */}
 
                          <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
             </div>

@@ -5,8 +5,8 @@ import Image from '../pages/images/fitmodous.png';
 function PrivacyAndPolicyPage(){
     return(
         <div>  <br></br> <br></br> <br></br>   <br></br>
-            <Box boxShadow={8}
-                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
+            <Box boxShadow={8} xs={6} sm={6}
+                         style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"20%",borderRadius:"30px",
                      }} >     <br></br>  <br></br>
                                    <Typography  variant="subtitle2"style={{fontWeight:600,fontSize:"20px"}}>
 Privacy and Policy of Fitmodous

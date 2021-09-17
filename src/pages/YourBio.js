@@ -9,17 +9,19 @@ function YourBio(){
         <div> <br></br><br></br>
               
                          <br></br>
-                         <Box boxShadow={8}
-                         style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                  
                            <br></br>
-                           <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
+                           <Typography variant="subtitle2" style={{fontWeight:"800",fontSize:"20px",marginRight:"300px",
                         color:"black"}} >Your Bio
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
+
+                         {/* <Box boxShadow={8}
                          style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         marginLeft:"10%",borderRadius:"10px"}} > */}
                                <br></br>
                                
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
@@ -29,8 +31,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Last Name
@@ -39,8 +41,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Birthday
@@ -49,8 +51,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Mobile Number
@@ -59,8 +61,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Mail Id
@@ -69,8 +71,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Gym Address
@@ -78,10 +80,9 @@ function YourBio(){
 
 </Box>
 <br></br>
-                 
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your Near By land Mark
@@ -90,8 +91,8 @@ function YourBio(){
 </Box>
 <br></br>
 <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"40%",height:"50%",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
                <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
                         color:"black"}} >Your City
@@ -100,39 +101,42 @@ function YourBio(){
 
 </Box>
 <br></br>          <br></br>   
-</Box>
+
 <br></br>   <br></br>
 <Box boxShadow={8}
-                         style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"500px"
-                     }} >
+                         style={{width:"40%",height:"350px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                          <br></br>
 <Typography style={{paddingLeft:"5%",fontWeight:"800",fontSize:"20px",
                         color:"black"}} >Upload Your Profile Picture
                          </Typography>
                          <br></br>
                          <Box boxShadow={8}
-                         style={{width:"500px",height:"70px",fontWeight:"700",marginRight:"10px",
-                         marginLeft:"10%",borderRadius:"10px"}} >
+                         style={{width:"70%",height:"200px",marginRight:"10px",marginLeft:"20%",
+                         borderRadius:"10px"}} >
                                <br></br>
-               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",
+               <Typography style={{fontWeight:"600",fontSize:"17px",marginRight:"300px",width:"100%",
                         color:"black"}} >Select Profile Photo
                          </Typography> 
-                         <br></br>   <br></br>   <br></br>
+                      <br></br>
                          <Button
                       variant="contained"
                             style={{
-                                backgroundColor: "green", width: "30%",
+                                backgroundColor: "green", width: "50%",height:"20%",
                                  borderRadius: "20px",color: "white",
                                 fontWeight:'600'
                             }}   >
                   Upload
                         </Button> 
-                        <br></br> <br></br> <br></br>
+                        <br></br> <br></br> 
                  
                         <YourBioSuccesfullySubmitted/>
                         <br></br>   <br></br>   <br></br>
 </Box><br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br> <br></br>   <br></br>   <br></br>
                          </Box>
+
+
+
                          <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
             </div>
     )

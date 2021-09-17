@@ -56,8 +56,8 @@ export default function NotificationPopup() {
                         <Button onClick={handleOpen}
                       variant="contained"
                             style={{
-                                backgroundColor: "#673ab7", width: "50%",
-                                 borderRadius: "10px",color: "white",
+                                backgroundColor: "#673ab7", width: "20%",
+                                 borderRadius: "10px",color: "white",marginRight:"300px",
                                 fontWeight:'600'
                             }}   >
                    Next

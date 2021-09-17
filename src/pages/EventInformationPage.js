@@ -35,78 +35,67 @@ function EventInformationPage(){
   
 
 return(
-    <div><br></br><br></br>  <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+    <div><br></br><br></br>
+    
       
-       <Box boxShadow={8}
+       {/* <Box boxShadow={8}
                          style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
                          marginLeft:"500px"
-                     }} > <br></br> <br></br>
+                     }} > */}
+                        <br></br> <br></br>
                                 <Typography style={{paddingLeft:"10px",fontWeight:"600",fontSize:"20px",color:"black"}} >
   Kindly fill the information
          </Typography> 
-         <Typography style={{paddingRight:"900px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Name
-         </Typography>  
-      <TextField style={{width:"90%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic"
-       label="" />
+         <br></br>  <br></br>
+         <Grid container justify="flex-start" spacing={1}>
+      <Grid item sm={4}></Grid>
+                    <Grid item sm={4} lg={4} xs={12}>
+                    <TextField lg={4} style={{width:"100%"}}id="standard-basic" label="Name" />
 <br></br><br></br><br></br>
-<Typography style={{paddingRight:"900px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Date
-         </Typography>  
-      <TextField style={{width:"90%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+
+         <TextField lg={4} style={{width:"100%"}}id="standard-basic" label="Date" />
 <br></br><br></br><br></br>
 <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={6}>
-                    <Typography style={{width:"200px",paddingRight:"800px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Time From
-         </Typography>  
-      <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
-<br></br><br></br><br></br>
+
+         <TextField lg={4} item sm={6}style={{width:"100%"}}id="standard-basic" label="Time From" />
+         <br></br><br></br><br></br>
                         </Grid>   
                     <Grid item sm={6}>
                         
-<Typography style={{width:"200px",paddingRight:"800px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Time to
-         </Typography>  
-      <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+ 
+         <TextField  style={{width:"100%"}}id="standard-basic" label=" Time to" />
 <br></br><br></br><br></br>
 
                     </Grid>
                     </Grid>
-                    <Typography style={{paddingRight:"900px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Trainer Name
-         </Typography>  
-      <TextField style={{width:"90%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+
+         <TextField  style={{width:"100%"}}id="standard-basic" label=" Trainer Name" />
 <br></br><br></br><br></br>
 <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={6}>
-                    <Typography style={{width:"200px",paddingRight:"800px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Seat Availablity
-         </Typography>  
-      <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+     
+         <TextField  style={{width:"100%"}}id="standard-basic" label=" Seat Availablity" />
 <br></br><br></br><br></br>
                         </Grid>   
                     <Grid item sm={6}>
                         
-<Typography style={{width:"200px",paddingRight:"800px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Out of
-         </Typography>  
-      <TextField style={{width:"80%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+
+         <TextField  style={{width:"100%"}}id="standard-basic" label="Out of" />
 <br></br><br></br><br></br>
 
                     </Grid>
                     </Grid>
-                    <Typography style={{paddingRight:"900px",fontWeight:"600",fontSize:"20px",color:"black"}} >
-Meeting Link
-         </Typography>  
-      <TextField style={{width:"90%",paddingRight:"500px",marginLeft:"30px"}} id="standard-basic" label="" />
+ 
+         <TextField  style={{width:"100%"}}id="standard-basic" label=" Meeting Link" />
 <br></br><br></br><br></br>
+                    </Grid>
+                    <Grid item sm={4}></Grid>
+                    </Grid>
+        
 <FormControl component="fieldset" className={classes.formControl}>
         <FormGroup>
-          <FormControlLabel style={{width:"100%",marginRight:"700px"}}
+          <FormControlLabel style={{width:"100%"}}
             control={<Checkbox  checked={gilad} onChange={handleChange} name="gilad" />}
             label="I confirm the above details are correct"
           />
@@ -130,7 +119,9 @@ Meeting Link
                         <br></br>
                         <br></br>
       
-                     </Box>  <br></br>
+                     {/* </Box>
+                      */}
+                     <br></br>
                      <br></br>
                      <br></br>
                      <br></br>

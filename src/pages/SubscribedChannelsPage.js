@@ -7,9 +7,10 @@ function  SubscribedChannelsPage(){
     return(
         <div> 
               <br></br>  <br></br><br></br> 
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
                          style={{width:"50%",height:"100%",fontWeight:"700",marginLeft:"500px",borderRadius:"10px",
                      }} ><br></br> <br></br> 
+                      */}
                               <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"16px",
                         color:"black"}} > Your Subscribed Channels 
                          </Typography>
@@ -68,7 +69,7 @@ function  SubscribedChannelsPage(){
                     </Grid>
                     </Grid>
       <hr></hr>
-                     </Box>
+                     {/* </Box> */}
                      </div>
     );
 }

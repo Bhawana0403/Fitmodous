@@ -9,9 +9,9 @@ export const YourEventDetailsPage=()=>{
     <br></br> 
                     <br></br>
     <br></br> <br></br>
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
       style={{width:"40%",height:"40%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
-                     }} >  
+                     }} >   */}
                            <Typography style={{fontWeight:"600",fontSize:"20px",color:"black",paddingTop:"50px"}} >
 Congrats You have Successfully booked it
          </Typography> 
@@ -40,7 +40,7 @@ Your Events Details
 23 seats available
          </Typography> 
          <br></br>   <br></br>
-                     </Box> 
+                     {/* </Box>  */}
                     <br></br> 
                     <br></br> 
                     <br></br> 

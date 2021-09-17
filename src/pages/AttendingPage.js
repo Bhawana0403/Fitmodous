@@ -7,9 +7,10 @@ export const AttendingPage=()=>{
 
     return<>
     <br></br> <br></br>
-           <Box boxShadow={8}
+           {/* <Box boxShadow={8}
       style={{width:"40%",height:"40%",fontWeight:"700",marginLeft:"500px",borderRadius:"30px",
                      }} > <br></br> <br></br>
+                      */}
          <Typography style={{paddingLeft:"10px",fontWeight:"400",fontSize:"20px",color:"black"}} >
      40 peoples booked out of 50
          </Typography> <br></br><br></br>
@@ -68,6 +69,6 @@ export const AttendingPage=()=>{
                     </Grid>
                     </Grid>
          <br></br>
-                          </Box>
+                          {/* </Box> */}
                    </>
                      }
