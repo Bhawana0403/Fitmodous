@@ -7,9 +7,8 @@ function SubscriberPage(){
 return(
     <div><br></br><br></br>
        {/* <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} > */}
+                         style={{width:"40%",height:"100%",fontWeight:"700",marginLeft:"30%",borderRadius:"30px",
+                     }} >    */}
                             <br></br> <br></br>
                            <Grid container justify="flex-start" spacing={1}>
                          <Grid item sm={10}>
@@ -19,17 +18,17 @@ return(
          </Typography>
                          </Grid>
                          <Grid item sm={2}>
-                         < ChatIcon style={{color:"black",width:"100px",height:"50px"}}/>
+                         < ChatIcon style={{color:"black",width:"30%",height:"50%"}}/>
                          </Grid>
                          </Grid>
          <br></br>
   
                
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
    <img  style={{borderRadius:"20px"}} src={Image}class="responsive" width="70px" height="70px"/>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{paddingLeft:"5%",fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Randy Wester Welt<br></br>Randy@gmail.com
@@ -43,13 +42,13 @@ Remove Membership(Unsubscribe)
          <hr></hr>
                    
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Mobile Number
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",paddingRight:"600px",
                         color:"black"}} >
   +14657658769
@@ -58,13 +57,13 @@ Mobile Number
                </Grid>
                          </Grid>
                          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Country
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",paddingRight:"600px",
                         color:"black"}} >
  Germany
@@ -75,26 +74,26 @@ Country
                          <hr></hr>
                          <br></br>
                          
-         {/* </Box> */}
+       {/* </Box> */}
          <br></br> <br></br>
          <Typography style={{fontWeight:"800",fontSize:"25px",
                         color:"black"}} >
  Subscription Details
          </Typography><br></br>
-         <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} ><br></br>
+    <Box boxShadow={8}
+                         style={{width:"60%",height:"100%",fontWeight:"700",marginLeft:"15%",
+                         borderRadius:"30px",
+                     }} >   
                               
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
-                         <Typography style={{fontWeight:"600",fontSize:"20px",
+                         <Grid item sm={6}xs={6}lg={6}>
+                         <Typography style={{fontWeight:"600",fontSize:"20px",width:"100%",
                         color:"black"}} >
 Membership Details
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
-                         <Typography style={{fontWeight:"600",fontSize:"20px",
+                         <Grid item sm={6}xs={6}lg={6}>
+                         <Typography style={{fontWeight:"600",fontSize:"20px",width:"100%",
                         color:"black"}} >
 Premium Membership
          </Typography>
@@ -102,13 +101,13 @@ Premium Membership
                </Grid>
                          </Grid>
                          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                         <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Subscription
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                         <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 8/9/21
@@ -118,20 +117,20 @@ Subscription
                          </Grid>
                          </Box>
                          <br></br><br></br>
-
-         <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} ><br></br>
+                         <Box boxShadow={8}
+                         style={{width:"60%",height:"100%",fontWeight:"700",marginLeft:"15%",
+                         borderRadius:"30px",
+                     }} >   
+                              
                               
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Membership Details
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Standard Membership
@@ -140,13 +139,13 @@ Standard Membership
                </Grid>
                          </Grid>
                          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Subscription
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 8/9/21/8/9/21
@@ -156,18 +155,19 @@ Subscription
                          </Grid>
                          </Box><br></br><br></br>
                          <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} ><br></br>
+                         style={{width:"60%",height:"100%",fontWeight:"700",marginLeft:"15%",
+                         borderRadius:"30px",
+                     }} >   
+                              
                               
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Membership Details
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Personal Membership
@@ -176,13 +176,13 @@ Personal Membership
                </Grid>
                          </Grid>
                          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Subscription
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 8/9/21/8/9/21
@@ -192,18 +192,19 @@ Subscription
                          </Grid>
                          </Box><br></br><br></br>
                          <Box boxShadow={8}
-                         style={{width:"50%",height:"30%",fontWeight:"700",borderRadius:"10px",
-                         marginLeft:"500px"
-                     }} ><br></br>
+                         style={{width:"60%",height:"100%",fontWeight:"700",marginLeft:"15%",
+                         borderRadius:"30px",
+                     }} >   
+                              
                               
          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Membership Details
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Premium Membership
@@ -212,13 +213,13 @@ Premium Membership
                </Grid>
                          </Grid>
                          <Grid container justify="flex-start" spacing={1}>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 Subscription
          </Typography>
                          </Grid>
-                         <Grid item sm={4}>
+                      <Grid item sm={6}xs={6}lg={6}>
                          <Typography style={{fontWeight:"600",fontSize:"20px",
                         color:"black"}} >
 8/9/21/8/9/21
@@ -227,6 +228,7 @@ Subscription
                </Grid>
                          </Grid>
                          </Box>
+                         <br></br>   <br></br>
          </div>
 );
 }
