@@ -17,11 +17,12 @@ function  FitGymPage(){
 <Grid container justify="flex-start" spacing={1}>
                     <Grid item sm={3}>
                     <Typography style={{fontWeight:"600",fontSize:"16px",
-                        color:"black"}} > 5 Followers
+                        color:"black"}} > 5 <br></br>
+                        Followers
                          </Typography>
                     </Grid>
-                    <Grid item sm={3}>
-                    <Button 
+                    <Grid item sm={3} xs={3}>
+                    <Button xs={3}
                       variant="contained"
                             style={{
                                 backgroundColor: "black", width: "45%",
@@ -31,8 +32,8 @@ function  FitGymPage(){
            Message
                         </Button>
                     </Grid>
-                    <Grid item sm={3}>
-                    <Button 
+                    <Grid item sm={3}xs={3}>
+                    <Button xs={3}
                       variant="contained"
                             style={{
                                 backgroundColor: "black", width: "45%",
@@ -46,6 +47,9 @@ function  FitGymPage(){
                     <Grid item sm={3}></Grid>
                     </Grid>
                     <br></br> <br></br>
+                    <Typography style={{fontWeight:"600",fontSize:"16px",marginRight:"50%",                        color:"black"}} > 
+                   Event
+                         </Typography>
                     <Button 
                       variant="contained"
                             style={{
@@ -55,6 +59,9 @@ function  FitGymPage(){
                             }}   >
         Events
                         </Button>
+                        <Typography style={{fontWeight:"600",fontSize:"16px",marginRight:"50%",                        color:"black"}} > 
+                Featured Video
+                         </Typography>
                         <br></br>
                         <br></br> <br></br>
                      {/* </Box> */}
