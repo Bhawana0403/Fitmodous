@@ -27,7 +27,7 @@ const Avatar = () => {
   }, [])
 
   return (
-    <Fragment>
+    <Fragment>    <br></br>    <br></br>    <br></br>
       <BreadCrumbs breadCrumbTitle='Total Views' breadCrumbParent='Dashboard' breadCrumbActive='Total Views' />
                 <br></br>
       <Table>

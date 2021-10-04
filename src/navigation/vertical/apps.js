@@ -16,12 +16,12 @@ export default [
     icon: <Mail size={20} />,
     navLink: '/apps/email'
   },
-  {
-    id: 'chat',
-    title: 'Privacy and policy of Fitmodous',
-    icon: <MessageSquare size={20} />,
-    navLink: '/apps/chat'
-  },
+  // {
+  //   id: 'chat',
+  //   title: 'Privacy and policy of Fitmodous',
+  //   icon: <MessageSquare size={20} />,
+  //   navLink: '/apps/chat'
+  // },
   {
     id: 'todo',
     title: 'Create Notification',

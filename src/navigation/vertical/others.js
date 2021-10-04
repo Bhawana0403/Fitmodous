@@ -14,6 +14,14 @@ export default [
     action: 'read',
     resource: 'ACL',
     navLink: '/access-control'
+  },
+  {
+    id: 'access-control',
+    title: 'Privacy and Policy',
+    icon: <Shield size={12} />,
+    action: 'read',
+    resource: 'ACL',
+    navLink: '/forms/elements/input-mask'
   }
   // // // {
   // // //   id: 'menuLevels',

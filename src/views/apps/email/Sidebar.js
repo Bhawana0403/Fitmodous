@@ -41,6 +41,7 @@ const Sidebar = props => {
   return (
     <div>
        <CardBody>
+         <br></br>  <br></br>
          <Card style={{width:"800px"}}>
            <br></br>
            <CardTitle style={{marginLeft:"10%"}}>Get In Touch</CardTitle>

@@ -6,9 +6,9 @@ import { CardBody, CardText, Row, Col, Table, Card, CardTitle } from 'reactstrap
 import Image from '../advance/images/workout.jpg'
 const CardActions = () => {
   return (
-    <Fragment>
+    <Fragment><br></br><br></br><br></br><br></br>
       <Breadcrumbs breadCrumbTitle='Your videos' breadCrumbParent='Dashboard' breadCrumbActive='Your Videos' />
-<Card> <br></br>
+<Card> <br></br><br></br><br></br><br></br>
 <img style={{marginLeft:"40%"}}src={Image} img='responsive' width='15%' marginLeft='30%'></img><br></br><br></br>
   <CardTitle style={{marginLeft:"7%"}}>Arms workout for Women for standard subscribers only</CardTitle>
   <Row>

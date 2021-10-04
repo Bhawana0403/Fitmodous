@@ -26,7 +26,7 @@ const Badges = () => {
     Prism.highlightAll()
   }, [])
   return (
-    <Fragment>
+    <Fragment>    <br></br>    <br></br>    <br></br>
       <BreadCrumbs breadCrumbTitle='Biography' breadCrumbParent='Dashboard' breadCrumbActive='Biography' />
       <CardHeader>
         <CardTitle tag='h4'>Your Bio</CardTitle>

@@ -6,9 +6,9 @@ Button} from 'reactstrap'
 const chat = () => {
   const ability = useContext(AbilityContext)
   return (
-    <Row>
+    <Row>   <br></br>   <br></br>
       <Col md='8' sm='12'>
-      <Card>
+      <Card>   <br></br>   <br></br>
       <CardHeader>
         <CardTitle tag='h4'>Give your valuable Feedback</CardTitle>
       </CardHeader>
